@@ -1,7 +1,7 @@
 # svg2dc
 svg to dreamcast engine exporter.
 
-![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen1.png?raw=true "Screeshot")
+![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen1.png?raw=true "Screenshot")
 
 
 This is a small converter that convert the map we make in inkscape in a C fonction that loads all the asset into our custom Dreamcast Engine.
@@ -12,6 +12,9 @@ The program will check for any incompatible image size and will calculate the me
 2. Select your SVG. Once it is selected it will do all the job for you- copying your asset into the *Output Folder*, converting the object position and size into something usable for my unamed DC engine.
 
 ### XML special tag
+
+![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen2.png?raw=true "Screenshot")
+
 Here's some special XML tags that the software will catch
 * u : expects a number between 1.0 and 0.0 - used for UV mapping.
 * v : expects a number between 1.0 and 0.0 - used for UV mapping.
