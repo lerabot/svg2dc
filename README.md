@@ -4,7 +4,7 @@ svg to dreamcast engine exporter.
 ![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen1.png?raw=true "Screenshot")
 
 
-This is a small utility that convert our maps (created in inkscape) in a C fonction that loads all the asset into our custom Dreamcast engine.
+This is a small utility that convert our maps (created in [inkscape](https://inkscape.org/en/)) in a C fonction that loads all the asset into our custom Dreamcast engine. It is essentially a XML parser looking for particular data.
 The program will check for any incompatible image size and will calculate the memory usage. It also keep tracks of filenames and will only load any duplicated assets once.
 
 ### How to use
@@ -23,6 +23,8 @@ Here's some special XML tags that the software will catch
 The program also detext if a images has been mirrored and will flip the UV map accordingly.
 
 ### Compatibility
+You will need [processing](https://processing.org) in order to execute this.
+
 If you're interested in using this for your project and want a less specific output than my custom engine, I'd be happy to try to make this more usable. Please fill an issue in or contact me at r.rabot_at_gmail.com
 
 
