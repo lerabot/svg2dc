@@ -5,7 +5,7 @@ svg to dreamcast engine exporter.
 
 
 This is a small utility that convert our maps (created in inkscape) in a C fonction that loads all the asset into our custom Dreamcast engine.
-The program will check for any incompatible image size and will calculate the meory usage for you. It also keep tracks of filename and will only load any duplicated asset once.
+The program will check for any incompatible image size and will calculate the memory usage. It also keep tracks of filenames and will only load any duplicated assets once.
 
 ### How to use
 1. Select the *Output Folder* first. This will be where your asset will be copied along with the *mapdata.c* file.
