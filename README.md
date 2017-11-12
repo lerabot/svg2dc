@@ -1,17 +1,20 @@
 # svg2dc
 svg to dreamcast engine exporter.
 
-![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen1.png?raw=true "Screeshot")
+![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen1.png?raw=true "Screenshot")
 
 
-This is a small converter that convert the map we make in inkscape in a C fonction that loads all the asset into our custom Dreamcast Engine.
-The program will check for any incompatible image size and will calculate the meory usage for you. It also keep tracks of filename and will only load any duplicated asset once.
+This is a small utility that convert our maps (created in [inkscape](https://inkscape.org/en/)) in a C fonction that loads all the asset into our custom Dreamcast engine. It is essentially a XML parser looking for particular data.
+The program will check for any incompatible image size and will calculate the memory usage. It also keep tracks of filenames and will only load any duplicated assets once.
 
 ### How to use
 1. Select the *Output Folder* first. This will be where your asset will be copied along with the *mapdata.c* file.
 2. Select your SVG. Once it is selected it will do all the job for you- copying your asset into the *Output Folder*, converting the object position and size into something usable for my unamed DC engine.
 
 ### XML special tag
+
+![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen2.png?raw=true "Screenshot")
+
 Here's some special XML tags that the software will catch
 * u : expects a number between 1.0 and 0.0 - used for UV mapping.
 * v : expects a number between 1.0 and 0.0 - used for UV mapping.
@@ -20,6 +23,8 @@ Here's some special XML tags that the software will catch
 The program also detext if a images has been mirrored and will flip the UV map accordingly.
 
 ### Compatibility
+You will need [processing](https://processing.org) in order to execute this.
+
 If you're interested in using this for your project and want a less specific output than my custom engine, I'd be happy to try to make this more usable. Please fill an issue in or contact me at r.rabot_at_gmail.com
 
 
