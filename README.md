@@ -1,7 +1,7 @@
 # svg2dc
 svg to dreamcast engine exporter.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen1.png?raw=true "Screeshot")
 
 
 This is a small converter that convert the map we make in inkscape in a C fonction that loads all the asset into our custom Dreamcast Engine.
