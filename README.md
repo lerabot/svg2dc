@@ -4,7 +4,7 @@ svg to dreamcast engine exporter.
 ![alt text](https://github.com/lerabot/svg2dc/blob/master/svg2dc/img/screen1.png?raw=true "Screenshot")
 
 
-This is a small converter that convert the map we make in inkscape in a C fonction that loads all the asset into our custom Dreamcast Engine.
+This is a small utility that convert our maps (created in inkscape) in a C fonction that loads all the asset into our custom Dreamcast engine.
 The program will check for any incompatible image size and will calculate the meory usage for you. It also keep tracks of filename and will only load any duplicated asset once.
 
 ### How to use
